@@ -1,4 +1,5 @@
 # えあふり　観鈴モード
+#
 
 # プラグイン
 #LoadPlugin("C:\Program Files (x86)\AviSynth 2.5\plugins\nnedi3.dll")
