@@ -11,6 +11,7 @@ tagline: TAS-Airfli
   <li><a href="misuzu.html">観鈴ノーマルモード難易度ハード</a>
 </ul>
 
+<h2>ブログエントリ</h2>
 {% for post in site.posts %}
   <h3><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
   {{ post.content }}
