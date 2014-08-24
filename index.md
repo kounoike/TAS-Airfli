@@ -5,10 +5,10 @@ tagline: TAS-Airfli
 ---
 {% include JB/setup %}
 
-<h2>ì‚Á‚½‚à‚Ì</h2>
+<h2>ä½œã£ãŸã‚‚ã®</h2>
 
 <ul>
-  <li><a href="misuzu.html">ŠÏ—éƒm[ƒ}ƒ‹ƒ‚[ƒh“ïˆÕ“xƒn[ƒh</a>
+  <li><a href="misuzu.html">è¦³éˆ´ãƒãƒ¼ãƒãƒ«ãƒ¢ãƒ¼ãƒ‰é›£æ˜“åº¦ãƒãƒ¼ãƒ‰</a>
 </ul>
 
 {% for post in site.posts %}
