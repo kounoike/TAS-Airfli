@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Misuzu"
+title: "観鈴"
 description: "えあふり観鈴TAS"
 ---
 {% include JB/setup %}
