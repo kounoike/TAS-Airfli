@@ -9,7 +9,7 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : TAS-Airfli
-tagline: TAS-Airfli
+tagline: TAS Files for えあふり
 author :
   name : Yuusuke KOUNOIKE
   email : kounoike.yuusuke@gmail.com
@@ -98,7 +98,8 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+#    provider : google 
+    provider : false 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
