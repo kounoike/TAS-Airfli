@@ -7,9 +7,11 @@ tagline: TAS-Airfli
 
 ## 作ったもの
 
-<ul>
-  <li><a href="misuzu.html">観鈴ノーマルモード難易度ハード</a></li>
-</ul>
+* [観鈴ノーマルモード難易度ハード](misuzu.html)
+
+<iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm23280135" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm23280135">【ニコニコ動画】【TAS】えあふり　観鈴ちん危機一髪　ノーマルモードハード観鈴 in 20:41.60</a></iframe>
+
+***
 
 ## ブログエントリ
 {% for post in site.posts %}
