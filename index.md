@@ -8,7 +8,7 @@ tagline: TAS-Airfli
 <h2>作ったもの</h2>
 
 <ul>
-  <li><a href="misuzu.html">観鈴ノーマルモード難易度ハード</a>
+  <li><a href="misuzu.html">観鈴ノーマルモード難易度ハード</a></li>
 </ul>
 
 <h2>ブログエントリ</h2>
