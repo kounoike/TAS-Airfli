@@ -3,7 +3,7 @@ layout: post
 title: "Hourglass Resurrection"
 description: ""
 category: 
-tags: [TAS hourglass hourglass-resurrection]
+tags: [TAS, hourglass, hourglass-resurrection]
 ---
 {% include JB/setup %}
 
