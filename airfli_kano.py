@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import os
+import glob
 import struct
 from PIL import Image, ImageDraw, ImageFont
 
@@ -42,7 +43,7 @@ def make_movieend():
 make_movieend()
 
 button_text = '<v^>AB'
-text_tmp = "{0:s} {1:6d}/{1:6d} ".format(button_text, 0)
+text_tmp = "{0:s} {1:5d}/{1:5d} ".format(button_text, 0)
 
 (w,h) = get_size(font, text_tmp)
 
@@ -67,7 +68,8 @@ wtf_rr = wtf_header[2]
 print "frames:{0:d} rr:{1:d}".format(wtf_frames, wtf_rr)
 
 f = open("airfli_kano_frames.txt","w")
-f.write("wtf_frames = {0:d}".format(wtf_frames))
+f.write("wtf_frames = {0:d}\n".format(wtf_frames))
+#f.write(r'm = AviSource("AVI\airfli_kano.avi", "' + '", "'.join(glob.glob(r"AVI\airfli_kano[0-9]*.avi")) + '")\n')
 f.close()
 
 
@@ -97,7 +99,7 @@ for frame in range(wtf_frames):
         if k == '\x27':
             keys[3] = '>'
     key_text = "".join(keys)
-    counter_text = "{0:06d}/{1:06d}".format(frame, wtf_frames-1)
+    counter_text = "{0:05d}/{1:05d}".format(frame, wtf_frames)
     text = "{0:s} {1:s} ".format(key_text, counter_text)
     #print text
 
@@ -105,6 +107,6 @@ for frame in range(wtf_frames):
     img = Image.new('RGBA', (image_width, image_height))
     drawtext_withshadow(img, font, text, shadow, fill)
 
-    img.save(r'{0:s}\btn_{1:06d}.png'.format(imgdir,frame))
+    img.save(r'{0:s}\btn_{1:05d}.png'.format(imgdir,frame))
 
 

@@ -3,7 +3,7 @@
 
 # プラグイン
 #LoadPlugin("C:\Program Files (x86)\AviSynth 2.5\plugins\nnedi3.dll")
-LoadPlugin("C:\Program Files (x86)\AviSynth 2.5\plugins\warpsharp.dll")
+LoadPlugin("warpsharp.dll")
 
 # 字幕色設定
 global halocolor = $333333
