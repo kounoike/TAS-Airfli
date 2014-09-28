@@ -11,6 +11,10 @@ tagline: TAS-Airfli
 
 <iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm23280135" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm23280135">【ニコニコ動画】【TAS】えあふり　観鈴ちん危機一髪　ノーマルモードハード観鈴 in 20:41.60</a></iframe>
 
+* [「佳乃ノーマルモード難易度ハード」](kano.html)
+
+<iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm24571384" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm24571384">【ニコニコ動画】【TAS】えあふり　観鈴ちん危機一髪　ノーマルモードハード佳乃 in 20:45.00</a></iframe>
+
 ***
 
 ## ブログエントリ
